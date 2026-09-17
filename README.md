@@ -13,27 +13,5 @@ Before running the code, please ensure that the datasets are organized under the
 
 ---
 
-## 🚀 Usage
-
-```bash
-
-python main.py \
-    --framework DeTSAD \
-    --dataset <dataset_names> \
-    --win_size 100 \
-    --data_path ./data \
-    --input_c <Number of channels> \
-    --output_c <Number of channels> \
-    --d_model 128 \
-    --temperature 0.1 \
-    --anomaly_ratio 0.2 \
-    --anomaly_score_method learnable_norm_weight \
-
-Arguments:
---dataset: specify the dataset name, e.g., SMD, SWaT, SMAP, MSL, PSM.
---input_c: Number of input channels, e.g., 25, 55.
---output_c: Number of output channels, e.g., 25, 55.
-
-
 ## License
 This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
